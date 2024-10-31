@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222;
+    color: white;
+    font-family: Poppins;
+}
+
+nav{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#skills{
+    background-color: white;
+    color: #222222;
+}
+
+#contacto{
+    background-color: #FFC900;
+}
+
+#portafolio{
+    border-top: solid #FFC900;
+}
+
+#inicio{
+    background-image: url("../imagenes/inicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.relleno{
+    padding: 10px 100px 10px 100px;
+}
