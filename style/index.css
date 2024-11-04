@@ -4,55 +4,105 @@
 }
 
 body{
-    background-color: #222;
+    background-color: #222222;
     color: white;
-    /*font: 200 14px 'Poppins';*/
-    font-family: Poppins;
+    /*font-family: Poppins;
+    font-size: 14px;
+    font-weight: 200;*/
+    font: 200 14px 'Poppins';
 }
 
 nav{
+    text-align:center;
     background-color: black;
+    height: 55px;
 }
 
-/*h2{
+h2{
     font-size: 36px;
     line-height: 36px;
-}*/
+}
 
-/*h3{
+h3{
     color: #8D8D8D;
     font-size: 18px;
     font-weight: 300;
-}/*
+}
 
-/*p{
+p{
     text-align: justify;
-}*/
+}
 
 ul{
     list-style-type: none;
 }
 
+nav ul{
+    display: inline-block;
+}
+
+nav ul li{
+    padding-top: 12px;
+    padding-right: 20px;
+}
+
+li{
+    float: left;
+    margin-right: 5px;
+}
+
+#logoLuis{
+    padding-top: 0px;
+}
+
+.hashtag{
+    color: #F7C40D;
+}
+
 #skills{
     background-color: white;
-    color: #222222;
+    color: #8D8D8D;
 }
 
-#contacto{
-    background-color: #FFC900;
+#contactar{
+    background-color: #F7C40D;
 }
 
-#portafolio{
-    border-top: solid #FFC900 1px;
+#portafolio
+{
+    border-top: solid #F7C40D 1px;
+}
+
+.seccion
+{
+    padding: 10px 100px 10px 100px;
+    /*padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;*/
 }
 
 #inicio{
     background-image: url("../imagenes/inicio.png");
+    min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
-    /*min-height: 280px;*/
 }
 
-.relleno{
-    padding: 10px 100px 10px 100px;
+a:any-link{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F7C40D;
+}
+
+#listaLogos{
+    margin-top: 100px;
+}
+
+.logos{
+    width: 40px;
+    margin-right: 15px;
 }
