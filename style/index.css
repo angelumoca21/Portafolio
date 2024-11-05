@@ -61,6 +61,31 @@ input{
     border: 0px;
 }
 
+.carta{
+    width: 250px;
+    background-color: #191919;
+    border-radius: 15px;
+}
+
+.imagenPortafolio{
+    border-radius: 15px;
+}
+
+.separador{
+    border-color: #F7C40D;
+}
+
+.tituloSubtituloPortafolio{
+    text-align: center;
+}
+
+#contenedorPortafolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
 #logoLuis{
     padding-top: 0px;
 }
@@ -70,7 +95,7 @@ input{
 }
 
 #skills{
-    background-color: white;
+    background-color: green;
     color: #8D8D8D;
 }
 
