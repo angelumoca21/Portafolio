@@ -51,39 +51,19 @@ li{
     margin-right: 5px;
 }
 
-input{
+section input{
     border-radius: 15px;
+    border: 0;
+}
+
+#botonSobreMi{
     background-color: #F7C40D;
+    font-weight: 600;
     padding-left: 15px;
     padding-right: 15px;
-    height: 40px;
+    margin-top: 20px;
+    height: 50px;
     width: 150px;
-    border: 0px;
-}
-
-.carta{
-    width: 250px;
-    background-color: #191919;
-    border-radius: 15px;
-}
-
-.imagenPortafolio{
-    border-radius: 15px;
-}
-
-.separador{
-    border-color: #F7C40D;
-}
-
-.tituloSubtituloPortafolio{
-    text-align: center;
-}
-
-#contenedorPortafolio{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 25px;
 }
 
 #logoLuis{
@@ -95,7 +75,7 @@ input{
 }
 
 #skills{
-    background-color: green;
+    background-color: white;
     color: #8D8D8D;
 }
 
@@ -106,6 +86,10 @@ input{
 #portafolio
 {
     border-top: solid #F7C40D 1px;
+}
+
+.tituloSubtitulo{
+    text-align: center;
 }
 
 .seccion
@@ -142,24 +126,96 @@ a:hover{
     margin-right: 15px;
 }
 
-#fotoLuis{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 100px;
+#imagenFoto{
     float: left;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: black;
 }
 
-#sobreMi{
+#sobreMi
+{
     display: inline-block;
 }
 
-#textoSobreMi
+#tituloSobreMi
 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 #parrafoSobreMi{
-    padding-bottom: 65px;
+    padding-bottom: 40px;
+}
+
+.sep{
+    border-top: solid #F7C40D;
+}
+
+.carta{
+    width: 250px;
+    background-color: #191919;
+    border-radius: 15px;
+}
+
+.carta img{
+    border-radius: 15px 15px 0 0;
+}
+
+.carta h3{
+    color: #F7C40D;
+}
+
+.carta h4{
+    margin: 0 5px 5px 0;
+}
+
+.carta .masInformacion{
+    margin: 15px 0 15px 0;
+    height: 26px;
+}
+
+.carta .masInformacion input{ 
+    background-color: #F7C40D;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+
+.carta input{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.carta h3, .carta h4, .carta p, .carta .masInformacion{
+    padding: 0 15px;
+}
+
+#filaPortafolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+}
+
+#h2Portafolio{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#h3Portafolio{
+    margin-bottom: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer p{
+    margin-top: 15px;
 }
