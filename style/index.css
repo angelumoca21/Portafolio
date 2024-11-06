@@ -238,8 +238,22 @@ a:hover{
     margin-bottom: 20px;
 }
 
+.cartaExperiencia ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .cartaExperiencia il{
     height: 30px;
+}
+
+#containerExperiencia{
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
 }
 
 footer{
@@ -250,4 +264,42 @@ footer{
 
 footer p{
     margin-top: 15px;
+}
+
+#h2Contacto{
+    color: black;
+}
+
+label{
+    color: black;
+    font-weight: 600;
+    margin-left: 480px;
+}
+
+textarea{
+    border-radius: 15px;
+    border: 0px;
+    margin-left: 4px;
+}
+
+#nombreForm{
+    margin-left: 5px;
+    padding-left: 68px;
+}
+
+#empresaForm{
+    padding-left: 67px;
+}
+
+#emailForm{
+    margin-left: 25px;
+    margin-bottom: 5px;
+    padding-left: 67px;
+}
+
+#botonEnviar{
+    margin-left: 695px;
+    background-color:#222222;
+    color: white;
+    padding: 10px 20px 10px 20px;
 }
