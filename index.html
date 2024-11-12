@@ -51,7 +51,7 @@
             <img id="imagenFoto" src="./imagenes/LuisMartinezFoto.png" alt="fotoLuisMartinez">
             <h2 id="tituloSobreMi">SOBRE MÍ</h2>
             <p id="parrafoSobreMi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corporis facere amet ipsa nostrum ducimus, totam alias nisi repellendus beatae veniam natus, officiis deserunt possimus rem animi! Alias, quibusdam fuga!</p>
-            <input id="botonSobreMi" type="button" value="MAS INFO">
+            <input class="botonMasInfo" id="botonSobreMi" type="button" value="MAS INFO">
         </section>
         <section id="portafolio" class="seccion">
             <h2 id="h2Portafolio" class="tituloSubtitulo">PORTAFOLIO</h2>
@@ -64,7 +64,7 @@
                     <div class="sep"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="masInformacion">
-                        <input type="button" value="MAS INFO">
+                        <input class="botonMasInfo" type="button" value="MAS INFO">
                     </div>
                 </div>
                 <div class="carta">
@@ -74,7 +74,7 @@
                     <div class="sep"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="masInformacion">
-                        <input type="button" value="MAS INFO">
+                        <input class="botonMasInfo" type="button" value="MAS INFO">
                     </div>
                 </div>
                 <div class="carta">
@@ -84,7 +84,7 @@
                     <div class="sep"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="masInformacion">
-                        <input type="button" value="MAS INFO">
+                        <input class="botonMasInfo" type="button" value="MAS INFO">
                     </div>
                 </div>
                 <div class="carta">
@@ -94,7 +94,7 @@
                     <div class="sep"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="masInformacion">
-                        <input type="button" value="MAS INFO">
+                        <input class="botonMasInfo" type="button" value="MAS INFO">
                     </div>
                 </div>
             </div>
@@ -169,29 +169,24 @@
             <h2 id="h2Contacto">CONTACTO</h2>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <form>
-                <div>
+                <div class="elementoFormulario"> 
                     <label for="nombre">Nombre</label>
-                    <input id="nombreForm" type="text" id="nombre">
-                    <br>
+                    <input id="nombreForm" type="text" id="nombre" size="32">
                 </div>
-                <div>
+                <div class="elementoFormulario">
                     <label for="empresa">Empresa</label>
-                    <input id="empresaForm" type="text" id="empresa">
-                    <br>
+                    <input id="empresaForm" type="text" id="empresa" size="32">
                 </div>
-                <div>
+                <div class="elementoFormulario">
                     <label for="email">Email</label>
-                    <input id="emailForm" type="email" id="email">
-                    <br>
+                    <input id="emailForm" type="email" id="email" size="32">
                 </div>
-                <div>
+                <div class="elementoFormulario">
                     <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" rows="5" cols="30"></textarea>
-                    <br>
+                    <textarea id="mensaje" rows="5" cols="32" size="32"></textarea>
                 </div>
-                <div>
-                    <input id="botonEnviar" type="button" value="ENVIAR">
-                    <br>
+                <div class="elementoFormulario">
+                    <input id="botonEnviar" id="botonEnviar" type="button" value="ENVIAR">
                 </div>
             </form>
         </section>

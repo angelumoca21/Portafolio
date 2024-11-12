@@ -6,16 +6,7 @@
 body{
     background-color: #222222;
     color: white;
-    /*font-family: Poppins;
-    font-size: 14px;
-    font-weight: 200;*/
     font: 200 14px 'Poppins';
-}
-
-nav{
-    text-align:center;
-    background-color: black;
-    height: 55px;
 }
 
 h2{
@@ -31,6 +22,12 @@ h3{
 
 p{
     text-align: justify;
+}
+
+nav{
+    text-align:center;
+    background-color: black;
+    height: 55px;
 }
 
 ul{
@@ -51,7 +48,7 @@ li{
     margin-right: 5px;
 }
 
-section input{
+.botonMasInfo{
     border-radius: 15px;
     border: 0;
 }
@@ -96,10 +93,6 @@ section input{
 .seccion
 {
     padding: 10px 100px 10px 100px;
-    /*padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 10px;
-    padding-top: 10px;*/
 }
 
 #inicio{
@@ -256,50 +249,32 @@ a:hover{
     grid-gap: 30px;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-footer p{
-    margin-top: 15px;
-}
-
 #h2Contacto{
     color: black;
 }
 
-label{
+#contactar label{
     color: black;
-    font-weight: 600;
-    margin-left: 480px;
+    font-weight: 500;
 }
 
-textarea{
-    border-radius: 15px;
-    border: 0px;
-    margin-left: 4px;
+.elementoFormulario{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
-#nombreForm{
-    margin-left: 5px;
-    padding-left: 68px;
-}
-
-#empresaForm{
-    padding-left: 67px;
-}
-
-#emailForm{
-    margin-left: 25px;
-    margin-bottom: 5px;
-    padding-left: 67px;
+.elementoFormulario input, .elementoFormulario textarea{
+    border-radius: 5px;
+    border: 1px solid white;
 }
 
 #botonEnviar{
-    margin-left: 695px;
-    background-color:#222222;
+    background-color: #222222;
     color: white;
-    padding: 10px 20px 10px 20px;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+    border:solid #222222;
 }
