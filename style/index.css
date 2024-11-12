@@ -278,3 +278,14 @@ a:hover{
     justify-self: end;
     border:solid #222222;
 }
+
+footer
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    margin-top: 11px;
+    margin-left: 20px;
+}
